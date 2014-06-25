@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="prune:versionPruningModel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+    <description>Version Pruning Content Model</description>
+    <author>Kyle Adams</author>
+    <version>1.0</version>
+
+    <imports>
+        <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d" />
+        <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+    </imports>
+
+    <namespaces>
+        <namespace uri="http://www.alfresco.org/model/extension/version-pruning/1.0" prefix="prune" />
+    </namespaces>
+
+    <!--===========================================================================================================
+        Constraints
+    ============================================================================================================-->
+
+    <constraints>
+    </constraints>
+
+    <!--===========================================================================================================
+        Types
+    ============================================================================================================-->
+
+    <types>
+    </types>
+
+    <aspects>
+        <!-- Version Prunable Aspect -->
+        <aspect name="prune:versionPrunable">
+            <title>Version Prunable Aspect</title>
+        </aspect>
+    </aspects>
+</model>
